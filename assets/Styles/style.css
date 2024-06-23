@@ -169,6 +169,7 @@ h3 {
   /* font-weight: 600; */
   backdrop-filter: blur(20px); /* Adjust the blur intensity as needed */
 }
+
 .quote {
   text-align: center;
   text-decoration: overline underline;
@@ -236,6 +237,10 @@ h3 {
   border: 1px solid #ccc;
   border-radius: 5px;
   height: 300px;
+}
+
+.box-heading {
+  text-align: center;
 }
 
 /* .boxer1{
@@ -332,6 +337,10 @@ h3 {
     width: 40%;
     margin: 10px;
   }
+
+  .lead-line {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -342,5 +351,24 @@ h3 {
 
   .about-heading {
     font-size: 30px;
+  }
+
+  .logo-img {
+    min-width: 200px;
+  }
+
+  .lead-line {
+    font-size: 15px;
+  }
+
+  .about-description {
+    font-size: 16px;
+  }
+
+  .make-3-tiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
